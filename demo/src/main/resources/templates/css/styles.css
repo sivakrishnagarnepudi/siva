@@ -1,0 +1,58 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#video-feed {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+
+#capture-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#capture-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#loading {
+    display: none;
+    font-size: 16px;
+    color: #333;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#results h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#results p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+#results strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
